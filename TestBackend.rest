@@ -1,0 +1,35 @@
+### Guardar 1 persona
+POST http://localhost:3000/api/persons
+Content-Type: application/json
+
+{ 
+  "name": "Jonathan Díaz",
+  "age": 48,
+  "email": "correo@gmail.com"
+}
+
+
+### Recuperar Todas las Personas
+GET http://localhost:3000/api/persons
+Content-Type: application/json
+
+
+### Recuperar 1 Persona con el id
+GET http://localhost:3000/api/persons/1
+Content-Type: application/json
+
+
+### Actualizar 1 persona
+PUT http://localhost:3000/api/persons/1
+Content-Type: application/json
+
+{ 
+  "name": "Jonathan Pérez",
+  "age": 45,
+  "email": "joperezd23@gmail.com"
+}
+
+
+### Eliminar 1 Persona con el id
+DELETE http://localhost:3000/api/persons/1
+Content-Type: application/json
